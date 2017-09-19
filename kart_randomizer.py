@@ -21,8 +21,8 @@ if n_players % 2 == 0:
 first_batch = second_batch = n_players // 2
 if not is_even:
     first_batch += 1
-print "first group racers number:" + str(first_batch)
-print "second group racers number:" + str(second_batch)
+print "first group number of racers: " + str(first_batch)
+print "second group number of racers: " + str(second_batch)
 group_number = 1 
 racer_id = 1
 for name in names_list:
